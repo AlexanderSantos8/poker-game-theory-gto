@@ -4,7 +4,7 @@ An analytical study of Texas Hold'em poker through the lens of game theory and m
 
 ---
 
-## 📖 Introduction
+## Introduction
 Texas Hold'em is widely considered the most popular variant of poker. While its historical origins remain somewhat ambiguous—officially recognized by the Texas State Legislature as Robstown, Texas—the game has evolved into a deep, strategically rich environment. 
 
 The objective of Texas Hold'em is to win chips either by having the best five-card hand at showdown or by forcing all other opponents to fold before the showdown. This dual objective creates a highly dynamic balance between mathematical probability and psychological deception (bluffing).
@@ -68,7 +68,7 @@ The hierarchy of hands, ranked from the most mathematically improbable to the mo
 
 ---
 
-## 📈 Expected Value & The 4-2 Rule
+##  Expected Value & The 4-2 Rule
 
 To make mathematically sound decisions during live gameplay, players calculate their **Expected Value (EV)**:
 
@@ -86,14 +86,14 @@ During the hand, players use the **4-2 Rule** to approximate their winning perce
 
 ---
 
-## 👥 Authors
+## Authors
 * **Adam Barsotti**
 * **Alex Santos**
 * **Cristian Cordova**
 
 ---
 
-## 📚 References
+##  References
 1. BetMGM. *The Rule of 4 and 2 in Poker*. (2023).
 2. Bos, Tom. *What Is Expected Value in Poker?* GTO Wizard. (2022).
 3. Feterik, Fiori, and Adam Biro. *Poker Outs Explained: Master Odds & Boost Your Edge*. (2026).
