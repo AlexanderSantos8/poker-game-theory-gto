@@ -99,4 +99,3 @@ During the hand, players use the **4-2 Rule** to approximate their winning perce
 3. Feterik, Fiori, and Adam Biro. *Poker Outs Explained: Master Odds & Boost Your Edge*. (2026).
 4. Wikipedia. *Poker Probability*. (2026).
 5. PokerOrg. *Understanding Poker Equity*. (2024).
-
