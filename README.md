@@ -11,7 +11,7 @@ The objective of Texas Hold'em is to win chips either by having the best five-ca
 
 ---
 
-## 🧮 Theoretical Framework
+## Theoretical Framework
 
 ### 1. Game Theory Optimal (GTO)
 Game Theory Optimal (GTO) is a defensive strategy aimed at maximizing long-term expected profit while minimizing the possibility of being exploited by opponents. It relies heavily on the concept of a **Nash Equilibrium**—a state in which no player can improve their expected outcome by unilaterally changing their strategy.
@@ -45,11 +45,60 @@ $$\mathbf{[p = 0.25, q = 0.25]}$$
 
 ---
 
-## 📊 Combinatorics & Hand Probabilities
+## Combinatorics & Hand Probabilities
 
 Using the binomial coefficient formula to find the total number of unique 5-card hands from a standard 52-card deck:
 
 $$\binom{52}{5} = 2,598,960\text{ combinations}$$
+
+The hierarchy of hands, ranked from the most mathematically improbable to the most common, is shown below:
+
+| Rank | Hand | Distinct Combinations | Probability |
+| :---: | :--- | :---: | :---: |
+| 1 | **Royal Flush** | $4$ | $0.00015\%$ |
+| 2 | **Straight Flush** | $36$ | $0.0014\%$ |
+| 3 | **Four of a Kind** | $624$ | $0.024\%$ |
+| 4 | **Full House** | $3,744$ | $0.1441\%$ |
+| 5 | **Flush** | $5,108$ | $0.197\%$ |
+| 6 | **Straight** | $10,200$ | $0.393\%$ |
+| 7 | **Three of a Kind** | $54,912$ | $2.11\%$ |
+| 8 | **Two Pair** | $123,552$ | $4.75\%$ |
+| 9 | **Pair** | $1,098,240$ | $42.26\%$ |
+| 10 | **High Card** | $1,302,540$ | $50.12\%$ |
+
+---
+
+## 📈 Expected Value & The 4-2 Rule
+
+To make mathematically sound decisions during live gameplay, players calculate their **Expected Value (EV)**:
+
+$$EV = (W\% \times \$W) - (L\% \times \$L)$$
+
+Where:
+* $W\%$ is the probability of winning (equity).
+* $L\%$ is the probability of losing ($1 - W\%$).
+* $\$W$ is the total pot size you stand to win.
+* $\$L$ is the amount you must risk (the bet size).
+
+During the hand, players use the **4-2 Rule** to approximate their winning percentage based on their "outs" (unseen cards that improve their hand):
+* **On the Flop (with 2 cards left to come):** $W\% \approx 4 \times \text{Outs}$
+* **On the Turn (with 1 card left to come):** $W\% \approx 2 \times \text{Outs}$
+
+---
+
+## 👥 Authors
+* **Adam Barsotti**
+* **Alex Santos**
+* **Cristian Cordova**
+
+---
+
+## 📚 References
+1. BetMGM. *The Rule of 4 and 2 in Poker*. (2023).
+2. Bos, Tom. *What Is Expected Value in Poker?* GTO Wizard. (2022).
+3. Feterik, Fiori, and Adam Biro. *Poker Outs Explained: Master Odds & Boost Your Edge*. (2026).
+4. Wikipedia. *Poker Probability*. (2026).
+5. PokerOrg. *Understanding Poker Equity*. (2024).
 
 The hierarchy of hands, ranked from the most mathematically improbable to the most common, is shown below:
 
