@@ -88,7 +88,7 @@ During the hand, players use the **4-2 Rule** to approximate their winning perce
 
 ## Authors
 * **Adam Barsotti**
-* **Alex Santos**
+* **Alexander Santos**
 * **Cristian Cordova**
 
 ---
@@ -100,9 +100,3 @@ During the hand, players use the **4-2 Rule** to approximate their winning perce
 4. Wikipedia. *Poker Probability*. (2026).
 5. PokerOrg. *Understanding Poker Equity*. (2024).
 
-The hierarchy of hands, ranked from the most mathematically improbable to the most common, is shown below:
-
-| Rank | Hand | Distinct Combinations | Probability |
-| :---: | :--- | :---: | :---: |
-| 1 | **Royal Flush** | $4$ | $0.00015\%$ |
-| 2 |
